@@ -1,18 +1,30 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+---
 
-## Folder Structure
+### 🦖  Dinosaur Game (Chrome-Style Offline Runner)
 
-The workspace contains two folders by default, where:
+```markdown
+# 🦖 Dinosaur Game (Java Swing)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+A tribute to the Chrome offline **T-Rex Runner**, implemented in Java Swing with animated movement, jumping logic, and obstacle collisions.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## 🎯 Features
+- Character jump with spacebar
+- Cactus obstacle generation
+- Scoring system based on survival time
+- Game Over and restart flow
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 🧠 Concepts Used
+- Jump arc simulation with velocity/gravity
+- `KeyListener` and custom motion engine
+- Collision detection with moving objects
 
-## Dependency Management
+## 🛠️ Tech Stack
+- Java Swing (JFrame, JPanel)
+- Timer-based animation loop
+- Basic pixel art and sprite drawing with `Graphics`
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## 🚀 How to Run
+```bash
+javac DinosaurGame.java
+java DinosaurGame
